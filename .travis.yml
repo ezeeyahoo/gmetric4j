@@ -4,7 +4,7 @@ matrix:
   include:
     - arch: ppc64le
       jdk: openjdk8
-#       before_install: sudo apt-get -y install maven
+      before_install: sudo apt-get -y install maven
 jdk:
   - oraclejdk7
   - openjdk6
